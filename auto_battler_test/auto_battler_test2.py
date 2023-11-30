@@ -27,7 +27,7 @@ while True:
             pygame.quit()
             exit()
 
-        # player inout
+        # player input
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
                 x_axis_move -= 5
@@ -38,7 +38,7 @@ while True:
             if event.key == pygame.K_RIGHT or pygame.K_d:
                 x_axis_move = 0  
 
-    x_axis +=   x_axis_move
+    x_axis +=  x_axis_move
 
     # sky/background surface
     if x_axis <= -960:
