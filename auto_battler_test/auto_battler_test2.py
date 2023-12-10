@@ -4,7 +4,7 @@ from sys import exit
 # systems
 pygame.init()
 screen = pygame.display.set_mode((1920/2, 960))
-pygame.display.set_caption("auto battler test")
+pygame.display.set_caption("bird sim")
 clock = pygame.time.Clock()
 
 # background surface
